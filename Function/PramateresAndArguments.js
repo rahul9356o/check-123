@@ -7,7 +7,7 @@ function calculateSquare(num)
 
 let squareValu = num * num ;
 
-console.log(squareValu);
+console.log(squareValu);//instead of return we did a log
 
 
 

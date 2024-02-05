@@ -101,13 +101,13 @@ let anotherUser = User
 
 anotherUser.username = "VijayNalawade"
 
-console.log(User.username)
-console.log(anotherUser.username)
+// console.log(User.username)
+// console.log(anotherUser.username)
 
 // Other Things Explain In Imege 
 
 
-// +++++++++++++++++++++++++++++++++++++ Opraturs+++++++++++++++++++++++=============
+// +++++++++++++++++++++++++++++++++++++ Opraturs +++++++++++++++++++++++=============
 // 1.Arithmetic opertur 
 //3+4
 //5-2
@@ -169,34 +169,44 @@ let bankbalanceInt2 = Number(bankbalance2)
 //difference Btween NULL, undefined:
 
 // console.log(5 + null)
-// console.log( 5 + undefined)
+// console.log(5 + undefined)
 
 const firstName1 = "Hello"
 const lastName = "World"
 
 // console.log(firstName1+" "+lastName)
-// console.log('Muy First Name is ${firstName1} and Last Name is ${lastName}')
+// console.log('My First Name is ${firstName1} and Last Name is ${lastName}')
+// console.log('My First Name is ${firstName} And Last Name is ${lastName}')
 
 
 // String +++++++++++
 
 const username = new String("rahul@1234")
+const button = new String ("rahul vijay nalawade");
+
+
+// console.log(button);
 
 // console.log(username)
 
 // console.log(username[2])
+// console.log(button[4]);
 
 // console.log(username.length)
 // console.log(username.charAt(2))
 // console.log(username.substring(0,6))
+// console.log(button.substring(5,8));
 // console.log(username.replace('rahul',"vijay"))
+// console.log(button.replace('rahul', 'Abhishek'));
 // console.log(username.includes("rahul"))
+// console.log(button.includes("nalawade"));
 // console.log(username.includes(nalawade)) => Error ,This Worde dosn't have in String
 // console.log(username.toUpperCase())
+// console.log(button.toUpperCase());
 
 
 
-//Number:=============
+//Number:===========================================
 
 const num = new Number(4.4586138)
 // console.log(num.toFixed(2))
@@ -210,8 +220,9 @@ const subscribers = 100000
 
 
 
-//Array----------===========}}}}}}}}}}
-const myarray = [2, 4, 6, 8, 10]//Array including String Array apple all rull
+//Array----------===========}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+
+const myarray = [2, 4, 6, 8, 10]//   Array including String Array apple all rull
 
 const myArray = new Array(2, 4, 6, 8, 10)
 // console.log(myArray[3])
@@ -224,12 +235,12 @@ myArray.unshift(7)
 // console.log(myArray)
 
 // const lastName=myArray.pop()    => some both of them pop function.
-// myArray.pop()
+myArray.pop()
 // console.log(myArray)
 // console.log(myArray.pop())
 
-// console.log(myArray.toString())
-// console.log(myArray.join("-"))
+console.log(myArray.toString())
+console.log(myArray.join("-"))
 // console.log(myArray.slice(1, 3))//I am not understand
 
 
@@ -244,7 +255,8 @@ const user = {
     isAdmin: false,
     isLoggedIn: true,
     tea: ["lemon", "peach", "ginger"],
-    address: {
+    address: 
+    {
         city: "Jaipur",
         state: "Rajasthan"
     }
@@ -259,8 +271,8 @@ const anotherUser2 = user;
 // console.log(user["address"]["state"]);
 
 user.email = "hitesh@pw.live"
-// console.log(user);
-// console.log(anotherUser2);
+console.log(user);
+console.log(anotherUser2);
 
 delete user.isAdmin
 const userListFromDatabase = [{}, {}, {}]// no

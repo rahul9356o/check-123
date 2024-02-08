@@ -22,14 +22,17 @@ function isPalindrome(str) {
     for (i = 0; i < arguments.length / 2; i++) {
 
         if (String[i] !== String[length - 1 - i]) {
+
             return false;
+
         }
+        
         return true;
     }
 
 }
 
-// const String = prompt('enter the string :');//js output he shyad...
+ const String = prompt('enter the string :');//js output he shyad...
 
 const value = isPalindrome("rrdadrr");
 console.log(value);

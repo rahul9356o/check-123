@@ -239,8 +239,8 @@ myArray.pop()
 // console.log(myArray)
 // console.log(myArray.pop())
 
-console.log(myArray.toString())
-console.log(myArray.join("-"))
+// console.log(myArray.toString())
+// console.log(myArray.join("-"))
 // console.log(myArray.slice(1, 3))//I am not understand
 
 
@@ -271,11 +271,11 @@ const anotherUser2 = user;
 // console.log(user["address"]["state"]);
 
 user.email = "hitesh@pw.live"
-console.log(user);
-console.log(anotherUser2);
+// console.log(user);
+// console.log(anotherUser2);
 
 delete user.isAdmin
 const userListFromDatabase = [{}, {}, {}]// no
 
 console.log(user.hasOwnProperty('tea'));//no
-// console.log(Object.entries(user));//no
+console.log(Object.entries(user));//no

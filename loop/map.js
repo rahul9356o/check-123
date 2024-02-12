@@ -12,7 +12,7 @@ myArray.forEach( (item) => {
 
     console.log(item + 10);
 
-    return item + 10;
+    // return item + 10; not possible 
 
 })
 

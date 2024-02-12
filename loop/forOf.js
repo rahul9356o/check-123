@@ -7,7 +7,7 @@
 
 //     console.log(num);
 
-    
+
 // }
 
 
@@ -17,7 +17,7 @@
 
 //     console.log(greet);
 
-    
+
 // }
 
 // maps
@@ -33,8 +33,13 @@ map.set('usa', "united states of america")
 map.set('fr', "France")
 
 // console.log(map);
+
 for (const [key, value] of map) {
 
     console.log(key, ':-', value);
-    
+
+
+
 }
+
+//Simple Objet is Not work

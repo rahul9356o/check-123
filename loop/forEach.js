@@ -2,7 +2,7 @@
 
 const coding = [ "js", "ruby", "java", "phython", "cpp"]
 
-coding.forEach( function (val) //call back value
+coding.forEach( function (val) //call back value => loop ke andarka function
  {
 
     // console.log(val);
@@ -67,3 +67,5 @@ myCoding.forEach( (item, index, arr) => {
     console.log(item, index, arr);
 
 })
+
+// this loop does not return an vslue 

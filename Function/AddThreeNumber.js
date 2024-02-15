@@ -6,6 +6,8 @@
 
 // sanket sir git repo:  https://github.com/singhsanket143/Weekend_Dev/blob/master/Week_1/Nov_25/notes.pdf
 
+// sanket sir secound github link  https://github.com/singhsanket143/AsyncJSTutorial
+
 
 // Syntax 
 
